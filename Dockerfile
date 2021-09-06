@@ -1,4 +1,7 @@
-FROM java:8
+FROM openjdk:11
+
+COPY target/customer-manage.jar customer-manage.jar
+
 EXPOSE 8080
-ADD target/customer-manage.jar customer-manage.jar
+
 ENTRYPOINT ["java","-jar","customer-manage.jar"]
