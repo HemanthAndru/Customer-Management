@@ -18,7 +18,7 @@ spec:
       - name: key
       containers:
       - name: customer
-        image: hemanth08/customer-management:2
+        image: hemanth08/customer-management:1
         imagePullPolicy: Always
         ports:
         - containerPort: 8080
