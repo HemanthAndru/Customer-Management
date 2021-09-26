@@ -18,7 +18,7 @@ spec:
       - name: key
       containers:
       - name: customer
-        image: 96406/venkyrepo1:1
+        image: hemanth08/customer-management:2
         imagePullPolicy: Always
         ports:
-        - containerPort: 8090
+        - containerPort: 8080
